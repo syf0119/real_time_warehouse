@@ -27,7 +27,7 @@
         <scala.version>2.11</scala.version>
         <log4j.version>2.11.0</log4j.version>
         <cdh.version>cdh5.14.0</cdh.version>
-        <hadoop.version>2.6.0</hadoop.version>
+        <hadoop.version>3.2.3</hadoop.version>
         <hbase.version>1.2.0</hbase.version>
         <kafka.version>0.11.0.2</kafka.version>
         <fastjson.version>1.2.44</fastjson.version>
@@ -41,7 +41,7 @@
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
-            <version>${hadoop.version}-${cdh.version}</version>
+            <version>${hadoop.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
